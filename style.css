@@ -17,10 +17,17 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 500px;
     text-align: center;
+    border: 2px solid #007bff;
+    padding: 15px;
 }
 
 h2 {
-    color: #007bff;
+    color: white;
+    background-color: green;
+    border: 2px solid green;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
 }
 
 p {
@@ -41,3 +48,4 @@ p {
 .contact-info a:hover {
     text-decoration: underline;
 }
+
